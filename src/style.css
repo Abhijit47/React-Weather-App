@@ -1,0 +1,90 @@
+.container {
+  background-color: cadetblue;
+}
+
+.card {
+  padding: 5rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+.header {
+  grid-column: 1/-1;
+  justify-self: center;
+  text-align: center;
+}
+
+.header_logo {
+  padding: 1.5rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.header_logo .logo_name {
+  font-size: 2rem;
+}
+
+.header .date {
+  padding: .6rem;
+  font-size: 1.6rem;
+}
+
+.infoheader {
+  grid-column: 1/-1;
+  justify-self: center;
+
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  text-align: center;
+}
+
+.infoheader .info_1,
+.infoheader .info_2,
+.infoheader .info_3,
+.infoheader .info_4 {
+  background-color: darkgreen;
+  padding: 4rem;
+  place-self: center;
+}
+
+.input_container {
+  grid-column: 1/-1;
+  justify-self: center;
+}
+
+.input {
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.infofooter {
+  grid-column: 1/-1;
+  justify-self: center;
+
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem;
+  text-align: center;
+}
+
+.infofooter .info_1,
+.infofooter .info_2,
+.infofooter .info_3,
+.infofooter .info_4 {
+  background-color: rgb(15, 29, 56);
+  padding: 4rem;
+  place-self: center;
+}
+
+.visual_none {
+  display: none;
+}

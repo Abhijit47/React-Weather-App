@@ -1,0 +1,23 @@
+/* *,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+} */
+
+.box {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  /* height: 100vh; */
+  background: url('https://source.unsplash.com/1600x1900/?landscape,nature') !important;
+  background-position: top !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  height: 100%;
+  width: 100%;
+}
